@@ -1,0 +1,44 @@
+public class Main {
+    public static void main(String[] args) {
+
+        //১ থেকে ৫ পর্যন্ত নাম্বার গণণা(Incriment)
+        int count = 1;
+        while (count < 5) {
+
+            System.out.println(count);
+
+            count++;
+
+
+//Dectrement
+
+            int count = 6;
+            while (count >= 1) {
+
+                System.out.println(count);
+
+                count--;
+            }
+
+            //বিজোড়
+
+            int count = 1;
+            while (count < 30) {
+
+                System.out.println(count);
+
+                count += 2;
+            }
+            
+            //জোড়
+            int count = 2;
+            while (count <= 30) {
+
+                System.out.println(count);
+
+                count += 2;
+            }
+        }
+    }
+}
+
