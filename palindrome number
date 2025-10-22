@@ -1,0 +1,21 @@
+public class Main{
+    public static void main() {
+        int number=121;
+        int store=0;
+
+        int temporary=number;
+
+        while(number>0){
+            int result=number%10;
+            store=store*10+result;
+            number=number/10;
+        }
+        if(temporary==store){
+            System.out.println("this is a palindrome number: ");
+        }
+        else{
+            System.out.println("This is not a palindrome number: ");
+        }
+
+    }
+}
