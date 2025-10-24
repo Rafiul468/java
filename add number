@@ -1,0 +1,12 @@
+//২ টি সংখ্যার মধ্যে যোগফল নির্ণয়ের প্রোগ্রামঃ-
+
+public class Main{
+    public static void main(String[] args){
+        int num1=12;
+        int num2=25;
+
+        int sum =num1+num2;
+        System.out.println("Add two number:"+sum);
+
+    }
+}
